@@ -1,5 +1,5 @@
-function calculateRectangleArea(length, width) {
-  if (length < 0 || width < 0) {
+function calculateRectangleArea(length, width) { // makes a function to calculate the area
+  if (length < 0 || width < 0) { // checks if data is negative, returns undefined
     return undefined
   }
   else {
